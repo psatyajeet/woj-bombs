@@ -20,7 +20,7 @@ export default class MyApp extends App {
     return (
       <>
         <Head>
-          <title>My new cool app</title>
+          <title>Breaking NBA News</title>
         </Head>
         <Component {...pageProps} />
       </>
