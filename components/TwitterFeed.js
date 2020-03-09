@@ -14,9 +14,8 @@ export default function TwitterFeed() {
         href="https://twitter.com/satyajeet_pal/lists/nba-breaking-news?ref_src=twsrc%5Etfw"
       >
         A Twitter List by satyajeet_pal
-      </a>{' '}
+      </a>
       <script
-        async
         src="https://platform.twitter.com/widgets.js"
         charSet="utf-8"
       ></script>
