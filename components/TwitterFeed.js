@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -7,6 +8,13 @@ const Container = styled.div`
 export default function TwitterFeed() {
   return (
     <Container>
+      <Head>
+        <script
+          src="https://platform.twitter.com/widgets.js"
+          charSet="utf-8"
+          key="twitter"
+        ></script>
+      </Head>
       <a
         className="twitter-timeline"
         // data-width="720"
@@ -15,10 +23,6 @@ export default function TwitterFeed() {
       >
         A Twitter List by satyajeet_pal
       </a>
-      <script
-        src="https://platform.twitter.com/widgets.js"
-        charSet="utf-8"
-      ></script>
     </Container>
   );
 }
